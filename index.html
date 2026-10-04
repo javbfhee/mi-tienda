@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Tiendita</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🛒 Mi Tiendita</h1>
+        <p>Todo lo que necesitas, en un solo lugar.</p>
+    </header>
+
+    <main>
+
+      <div class="productos">
+
+    <div class="producto">
+        <div class="imagen-producto">
+    <img src="./imagenes/hamburguesa.jpg.jpg" alt="Hamburguesa">
+</div>
+        <h3>Hamburguesa</h3>
+        <p>Hamburguesa deliciosa y preparada al momento.</p>
+        <p class="precio">$8.00</p>
+        <button>Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <div class="imagen-producto">
+    <img src="imagenes\pizza.jpg.jpg" alt="Pizza">
+</div>
+        <h3>Pizza</h3>
+        <p>Pizza recién preparada con ingredientes deliciosos.</p>
+        <p class="precio">$12.00</p>
+        <button>Agregar al carrito</button>
+    </div>
+
+    <div class="producto">
+        <div class="imagen-producto">🥤</div>
+        <h3>Refresco</h3>
+        <p>Refresco frío para acompañar tu comida.</p>
+        <p class="precio">$3.00</p>
+        <button>Agregar al carrito</button>
+    </div>
+
+</div> 
+<section class="carrito">
+    <h2>🛒 Carrito</h2>
+
+    <div id="carrito-lista">
+        <p>Tu carrito está vacío.</p>
+    </div>
+
+    <h3>Total: $<span id="total">0.00</span></h3>
+    <button id="vaciar-carrito">Vaciar carrito</button>
+</section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
